@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Collège Catholique St Michel de D-Z</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<style>
+    /* Full width for anchor links */
+    .section-full {
+      width: 100%;
+      padding: 20px 0;
+    }
+
+    .category-link {
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    /* Card Styles */
+    .card {
+      border: 1px solid #e3e3e3;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      background-color: #fff;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .post-thumb img {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .article-title {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .list-inline {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .list-inline-item {
+      margin-right: 15px;
+    }
+
+    .dates-links {
+      margin-bottom: 20px;
+      padding: 15px;
+      background-color: #f7f7f7;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .dates-links h3 {
+      margin-bottom: 15px;
+    }
+
+    .dates-links ul {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .dates-links ul li {
+      margin: 5px 0;
+    }
+
+    .dates-links ul li a {
+      text-decoration: none;
+      color: #007bff;
+      transition: color 0.2s;
+    }
+
+    .dates-links ul li a:hover {
+      color: #0056b3;
+    }
+
+  </style>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">CCSM</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html">Accueil</a></li>
+          <li><a class="nav-link scrollto " href="catalogue.html">Catalogue</a></li>     
+          <li><a class="nav-link scrollto " href="Professeurs.html">Professeurs</a></li>
+          <li><a class="nav-link scrollto " href="blog-single.html">Actu</a></li>
+          <li><a class="nav-link scrollto " href="Bibli.html">Bibliothèque </a></li>
+          <li><a class="nav-link scrollto" href="#contact">Nous Contacter</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jfif)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">Collège Catholique St Michel de D-Z</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Excelsior,semper, Excelsior, "></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog-wrapper sect-pt4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <article class="post-box">
+
+              <!-- Categories Section -->
+              <div class="section-full text-center">
+                <h3>Catégories</h3>
+                <div>
+                  <a href="#education" class="category-link">Éducation</a>
+                  <a href="#sport" class="category-link">Sport</a>
+                  <a href="#pedagogie" class="category-link">Pédagogie</a>
+                  <a href="#evenement" class="category-link">Événements</a>
+                </div>
+              </div>
+
+              <!-- Dates Section -->
+              <div class="dates-links">
+                <h3>Liens vers les actualités</h3>
+                <ul>
+                  <li><a href="#actualite1">18 Septembre 2023</a></li>
+                  <li><a href="#actualite2">25 Septembre 2023</a></li>
+                  <li><a href="#actualite3">2 Octobre 2023</a></li>
+                </ul>
+              </div>
+
+              <!-- Actualités par catégorie -->
+              <h3 id="education">Éducation</h3>
+              <div id="actualite1" class="card post-box mb-4">
+                <div class="post-thumb">
+                  <img src="assets/img/post-1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                  <div class="post-meta">
+                    <h2 class="article-title">Actualités de la semaine : College Updates</h2>
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><span class="bi bi-person"></span> <a href="#">Par Jason London</a></li>
+                      <li class="list-inline-item"><span class="bi bi-tag"></span> <a href="#">Éducation, Événements</a></li>
+                      <li class="list-inline-item"><span class="bi bi-chat-left-text"></span> <a href="#">14 commentaires</a></li>
+                    </ul>
+                  </div>
+                  <div class="article-content">
+                    <p>
+                      Cette semaine, le collège a organisé une série d'événements visant à améliorer la vie scolaire...
+                    </p>
+                     </div>
+                </div>
+              </div>
+
+              <h3 id="sport">Sport</h3>
+              <div id="actualite2" class="card post-box mb-4">
+                <div class="post-thumb">
+                  <img src="assets/img/post-2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                  <div class="post-meta">
+                    <h2 class="article-title">Inauguration de la nouvelle bibliothèque</h2>
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><span class="bi bi-person"></span> <a href="#">Par Sarah Dupont</a></li>
+                      <li class="list-inline-item"><span class="bi bi-tag"></span> <a href="#">Éducation, Événements</a></li>
+                      <li class="list-inline-item"><span class="bi bi-chat-left-text"></span> <a href="#">8 commentaires</a></li>
+                    </ul>
+                  </div>
+                  <div class="article-content">
+                    <p>
+                      Nous avons récemment inauguré une nouvelle bibliothèque qui offre une vaste sélection de livres...
+                    </p>
+                     </div>
+                </div>
+              </div>
+
+              <h3 id="pedagogie">Pédagogie</h3>
+              <div id="actualite3" class="card post-box mb-4">
+                <div class="post-thumb">
+                  <img src="assets/img/post-3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                  <div class="post-meta">
+                    <h2 class="article-title">Atelier de sensibilisation sur la sécurité en ligne</h2>
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><span class="bi bi-person"></span> <a href="#">Par Lucas Martin</a></li>
+                      <li class="list-inline-item"><span class="bi bi-tag"></span> <a href="#">Éducation, Sécurité</a></li>
+                      <li class="list-inline-item"><span class="bi bi-chat-left-text"></span> <a href="#">5 commentaires</a></li>
+                    </ul>
+                  </div>
+                  <div class="article-content">
+                    <p>
+                      Dans le cadre de nos initiatives de sensibilisation, un atelier a été organisé pour informer les étudiants...
+                    </p>
+                     </div>
+                </div>
+              </div>
+
+              <h3 id="evenement">Événements</h3>
+              <div class="card post-box mb-4">
+                <div class="post-thumb">
+                  <img src="assets/img/post-4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                  <div class="post-meta">
+                    <h2 class="article-title">Concours de Mathématiques 2023</h2>
+                    <ul class="list-inline">
+                      <li class="list-inline-item"><span class="bi bi-person"></span> <a href="#">Par Julie Moreau</a></li>
+                      <li class="list-inline-item"><span class="bi bi-tag"></span> <a href="#">Événements, Compétition</a></li>
+                      <li class="list-inline-item"><span class="bi bi-chat-left-text"></span> <a href="#">12 commentaires</a></li>
+                    </ul>
+                  </div>
+                  <div class="article-content">
+                    <p>
+                      Le collège a organisé son annuel concours de mathématiques, avec des participants de plusieurs établissements...
+                    </p>
+                     </div>
+                </div>
+              </div>
+
+            </article>
+
+          </div>
+
+          <!-- Sidebar -->
+          <div class="col-md-4">
+            <div class="sidebar bg-light p-4 rounded shadow">
+              <h3 class="text-center text-primary">🌟 À propos du Collège 🌟</h3>
+              <p class="lead">
+                🎓 **Bienvenue au Collège Catholique St Michel de D-Z** - un lieu où les rêves prennent vie et les esprits brillent! 
+              </p>
+              <p>
+                🏫 Situé dans un écrin de verdure, notre collège offre un environnement d'apprentissage inspirant et stimulant. 
+                Avec des salles de classe modernes, des laboratoires de sciences à la pointe de la technologie, et une bibliothèque riche en ressources, 
+                nous nous engageons à fournir à nos élèves un cadre propice à leur réussite.
+              </p>
+              <p>
+                🎉 Nous croyons que l'éducation ne se limite pas à la théorie. C'est pourquoi nous offrons un éventail d'activités parascolaires allant des sports à la musique, en passant par l'art et le théâtre. 
+                Nos élèves sont encouragés à explorer leurs passions et à développer des compétences variées qui les préparent à la vie.
+              </p>
+              <p>
+                🌍 En tant qu'établissement catholique, nous plaçons les valeurs humaines et spirituelles au cœur de notre enseignement. 
+                Nous encourageons le respect, la solidarité et l'engagement communautaire, en formant des citoyens responsables et éthiques.
+              </p>
+              <p>
+                💼 Nos enseignants, passionnés et expérimentés, sont toujours prêts à accompagner chaque élève dans son parcours, offrant un soutien individualisé pour les aider à atteindre leurs objectifs. 
+                Ils cultivent un climat de confiance et d'ouverture, où chaque élève se sent valorisé et écouté.
+              </p>
+              <p>
+                🎓 **Notre vision** : Créer un environnement d'apprentissage dynamique où chaque élève peut s'épanouir, découvrir de nouvelles passions et réaliser son potentiel. 
+                Nos programmes académiques rigoureux sont conçus pour préparer les élèves à l'avenir, tout en favorisant leur créativité et leur esprit critique.
+              </p>
+              <p>
+                🌈 **Événements** : Ne manquez pas nos événements annuels comme le Festival de la Science, la Semaine des Arts, et nos compétitions sportives qui rassemblent élèves et familles dans une ambiance festive et conviviale. 
+                C'est une occasion parfaite pour célébrer les talents de nos élèves et renforcer notre communauté.
+              </p>
+              <p>
+                🚀 **Rejoignez-nous** dans cette aventure éducative passionnante! Découvrez notre école, participez à nos événements et laissez-vous inspirer par notre engagement envers l'excellence et l'innovation.
+              </p>
+              <div class="text-center my-4">
+                <img src="https://via.placeholder.com/150" alt="Image du collège" class="img-fluid rounded">
+              </div>
+              <p class="text-center">
+                <a href="#contact" class="btn btn-outline-primary mt-3">📞 Contactez-nous pour plus d'infos!</a>
+              </p>
+            </div>          </div>
+        </div>
+      </div>
+    </section><!-- End Blog Section -->
+
+  </main><!-- End #main -->
+
+<!-- footer.html -->
+<!-- ======= Footer ======= -->
+<footer class="footer-mf">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="copyright-box">
+          <p class="copyright">&copy; Copyright <strong>Collège Catholique St Michel de D-Z</strong>. Tout droits réservés.</p>
+          <div class="credits">
+            Designed by <a href="">Eliakim Clauvis ADANGNITODE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/html-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

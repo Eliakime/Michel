@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Collège Catholique St Michel de D-Z</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+</head>
+<style>
+    /* Effet pour la Hero Section */
+#hero {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Lorsque l'on scrolle, on applique un fond noir au header */
+header.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  z-index: 9999;
+  transition: background-color 0.3s ease;
+}
+
+header.sticky .navbar {
+  color: #fff;
+}
+
+</style>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">CCSM</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="index.html">Accueil</a></li>
+          <li><a class="nav-link scrollto " href="catalogue.html">Catalogue</a></li>     
+          <li><a class="nav-link scrollto " href="Professeurs.html">Professeurs</a></li>
+          <li><a class="nav-link scrollto " href="blog-single.html">Actu</a></li>
+          <li><a class="nav-link scrollto " href="Bibli.html">Bibliothèque </a></li>
+          <li><a class="nav-link scrollto" href="#contact">Nous Contacter</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/hero-bg.jfif)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <h1 class="hero-title mb-4">Collège Catholique St Michel de D-Z</h1>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Excelsior, semper, Excelsior"></span></p>
+        </div>
+      </div>
+    </div>
+  </div><!-- End Hero Section -->
+
+  <div class="container mt-5">
+    <h1 class="text-center"><i class="fas fa-chalkboard-teacher"></i> Nos Professeurs</h1>
+    
+    <!-- Accordéon pour chaque matière -->
+    <div id="accordion">
+
+<!-- Section pour les mathématiques -->
+<div class="card">
+  <div class="card-header" id="headingMath">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseMath" aria-expanded="true" aria-controls="collapseMath">
+        <span><i class="fas fa-calculator"></i> Mathématiques</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseMath" class="collapse " aria-labelledby="headingMath" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : Mathématiques</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details1" aria-expanded="false" aria-controls="details1">Détails</button>
+              <div class="collapse" id="details1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : Mathématiques</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details2" aria-expanded="false" aria-controls="details2">Détails</button>
+              <div class="collapse" id="details2">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo3.jpg" class="card-img-top" alt="Professeur 3">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 3</h5>
+              <p class="card-text">Matière : Mathématiques</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details3" aria-expanded="false" aria-controls="details3">Détails</button>
+              <div class="collapse" id="details3">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo4.jpg" class="card-img-top" alt="Professeur 4">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 4</h5>
+              <p class="card-text">Matière : Mathématiques</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details4" aria-expanded="false" aria-controls="details4">Détails</button>
+              <div class="collapse" id="details4">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo5.jpg" class="card-img-top" alt="Professeur 5">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 5</h5>
+              <p class="card-text">Matière : Mathématiques</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details5" aria-expanded="false" aria-controls="details5">Détails</button>
+              <div class="collapse" id="details5">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 6 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo6.jpg" class="card-img-top" alt="Professeur 6">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 6</h5>
+              <p class="card-text">Matière : Mathématiques</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details6" aria-expanded="false" aria-controls="details6">Détails</button>
+              <div class="collapse" id="details6">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 7 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo7.jpg" class="card-img-top" alt="Professeur 7">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 7</h5>
+              <p class="card-text">Matière : Mathématiques</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details7" aria-expanded="false" aria-controls="details7">Détails</button>
+              <div class="collapse" id="details7">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour la Philosophie -->
+<div class="card">
+  <div class="card-header" id="headingPhilo">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapsePhilo" aria-expanded="true" aria-controls="collapsePhilo">
+        <span><i class="fas fa-chalkboard-teacher"></i> Philosophie</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapsePhilo" class="collapse " aria-labelledby="headingPhilo" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : Philosophie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsPhilo1" aria-expanded="false" aria-controls="detailsPhilo1">Détails</button>
+              <div class="collapse" id="detailsPhilo1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : Philosophie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsPhilo2" aria-expanded="false" aria-controls="detailsPhilo2">Détails</button>
+              <div class="collapse" id="detailsPhilo2">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo3.jpg" class="card-img-top" alt="Professeur 3">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 3</h5>
+              <p class="card-text">Matière : Philosophie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsPhilo3" aria-expanded="false" aria-controls="detailsPhilo3">Détails</button>
+              <div class="collapse" id="detailsPhilo3">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo4.jpg" class="card-img-top" alt="Professeur 4">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 4</h5>
+              <p class="card-text">Matière : Philosophie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsPhilo4" aria-expanded="false" aria-controls="detailsPhilo4">Détails</button>
+              <div class="collapse" id="detailsPhilo4">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour les SVT -->
+<div class="card">
+  <div class="card-header" id="headingSVT">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseSVT" aria-expanded="true" aria-controls="collapseSVT">
+        <span><i class="fas fa-leaf"></i> SVT</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseSVT" class="collapse " aria-labelledby="headingSVT" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : SVT</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details1" aria-expanded="false" aria-controls="details1">Détails</button>
+              <div class="collapse" id="details1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : SVT</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details2" aria-expanded="false" aria-controls="details2">Détails</button>
+              <div class="collapse" id="details2">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo3.jpg" class="card-img-top" alt="Professeur 3">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 3</h5>
+              <p class="card-text">Matière : SVT</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details3" aria-expanded="false" aria-controls="details3">Détails</button>
+              <div class="collapse" id="details3">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo4.jpg" class="card-img-top" alt="Professeur 4">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 4</h5>
+              <p class="card-text">Matière : SVT</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details4" aria-expanded="false" aria-controls="details4">Détails</button>
+              <div class="collapse" id="details4">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo5.jpg" class="card-img-top" alt="Professeur 5">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 5</h5>
+              <p class="card-text">Matière : SVT</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details5" aria-expanded="false" aria-controls="details5">Détails</button>
+              <div class="collapse" id="details5">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 6 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo6.jpg" class="card-img-top" alt="Professeur 6">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 6</h5>
+              <p class="card-text">Matière : SVT</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details6" aria-expanded="false" aria-controls="details6">Détails</button>
+              <div class="collapse" id="details6">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 7 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo7.jpg" class="card-img-top" alt="Professeur 7">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 7</h5>
+              <p class="card-text">Matière : SVT</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details7" aria-expanded="false" aria-controls="details7">Détails</button>
+              <div class="collapse" id="details7">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour PCT -->
+<div class="card">
+  <div class="card-header" id="headingPCT">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapsePCT" aria-expanded="true" aria-controls="collapsePCT">
+        <span><i class="fas fa-flask"></i> PCT </span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapsePCT" class="collapse " aria-labelledby="headingPCT" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : PCT (Physique-Chimie-Technologie)</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details1PCT" aria-expanded="false" aria-controls="details1PCT">Détails</button>
+              <div class="collapse" id="details1PCT">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : PCT (Physique-Chimie-Technologie)</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details2PCT" aria-expanded="false" aria-controls="details2PCT">Détails</button>
+              <div class="collapse" id="details2PCT">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo3.jpg" class="card-img-top" alt="Professeur 3">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 3</h5>
+              <p class="card-text">Matière : PCT (Physique-Chimie-Technologie)</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details3PCT" aria-expanded="false" aria-controls="details3PCT">Détails</button>
+              <div class="collapse" id="details3PCT">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo4.jpg" class="card-img-top" alt="Professeur 4">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 4</h5>
+              <p class="card-text">Matière : PCT (Physique-Chimie-Technologie)</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details4PCT" aria-expanded="false" aria-controls="details4PCT">Détails</button>
+              <div class="collapse" id="details4PCT">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo5.jpg" class="card-img-top" alt="Professeur 5">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 5</h5>
+              <p class="card-text">Matière : PCT (Physique-Chimie-Technologie)</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details5PCT" aria-expanded="false" aria-controls="details5PCT">Détails</button>
+              <div class="collapse" id="details5PCT">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 6 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo6.jpg" class="card-img-top" alt="Professeur 6">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 6</h5>
+              <p class="card-text">Matière : PCT (Physique-Chimie-Technologie)</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details6PCT" aria-expanded="false" aria-controls="details6PCT">Détails</button>
+              <div class="collapse" id="details6PCT">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 7 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo7.jpg" class="card-img-top" alt="Professeur 7">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 7</h5>
+              <p class="card-text">Matière : PCT (Physique-Chimie-Technologie)</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details7PCT" aria-expanded="false" aria-controls="details7PCT">Détails</button>
+              <div class="collapse" id="details7PCT">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour les français -->
+<div class="card">
+  <div class="card-header" id="headingFrancais">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseFrancais" aria-expanded="true" aria-controls="collapseFrancais">
+        <span><i class="fas fa-book"></i> Français</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseFrancais" class="collapse " aria-labelledby="headingFrancais" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : Français</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details1f" aria-expanded="false" aria-controls="details1f">Détails</button>
+              <div class="collapse" id="details1f">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : Français</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details2f" aria-expanded="false" aria-controls="details2f">Détails</button>
+              <div class="collapse" id="details2f">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo3.jpg" class="card-img-top" alt="Professeur 3">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 3</h5>
+              <p class="card-text">Matière : Français</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details3f" aria-expanded="false" aria-controls="details3f">Détails</button>
+              <div class="collapse" id="details3f">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo4.jpg" class="card-img-top" alt="Professeur 4">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 4</h5>
+              <p class="card-text">Matière : Français</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details4f" aria-expanded="false" aria-controls="details4f">Détails</button>
+              <div class="collapse" id="details4f">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 5 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo5.jpg" class="card-img-top" alt="Professeur 5">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 5</h5>
+              <p class="card-text">Matière : Français</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details5f" aria-expanded="false" aria-controls="details5f">Détails</button>
+              <div class="collapse" id="details5f">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 6 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo6.jpg" class="card-img-top" alt="Professeur 6">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 6</h5>
+              <p class="card-text">Matière : Français</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details6f" aria-expanded="false" aria-controls="details6f">Détails</button>
+              <div class="collapse" id="details6f">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 7 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo7.jpg" class="card-img-top" alt="Professeur 7">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 7</h5>
+              <p class="card-text">Matière : Français</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details7f" aria-expanded="false" aria-controls="details7f">Détails</button>
+              <div class="collapse" id="details7f">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour l'Histoire-Géographie -->
+<div class="card">
+  <div class="card-header" id="headingHistGeo">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseHistGeo" aria-expanded="true" aria-controls="collapseHistGeo">
+        <span><i class="fas fa-globe"></i> Histoire-Géographie</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseHistGeo" class="collapse " aria-labelledby="headingHistGeo" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : Histoire-Géographie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details1" aria-expanded="false" aria-controls="details1">Détails</button>
+              <div class="collapse" id="details1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : Histoire-Géographie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details2" aria-expanded="false" aria-controls="details2">Détails</button>
+              <div class="collapse" id="details2">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo3.jpg" class="card-img-top" alt="Professeur 3">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 3</h5>
+              <p class="card-text">Matière : Histoire-Géographie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details3" aria-expanded="false" aria-controls="details3">Détails</button>
+              <div class="collapse" id="details3">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo4.jpg" class="card-img-top" alt="Professeur 4">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 4</h5>
+              <p class="card-text">Matière : Histoire-Géographie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details4" aria-expanded="false" aria-controls="details4">Détails</button>
+              <div class="collapse" id="details4">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour l'Anglais -->
+<div class="card">
+  <div class="card-header" id="headingAnglais">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseAnglais" aria-expanded="true" aria-controls="collapseAnglais">
+        <span><i class="fas fa-language"></i> Anglais</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseAnglais" class="collapse " aria-labelledby="headingAnglais" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : Anglais</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details1" aria-expanded="false" aria-controls="details1">Détails</button>
+              <div class="collapse" id="details1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : Anglais</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details2" aria-expanded="false" aria-controls="details2">Détails</button>
+              <div class="collapse" id="details2">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo3.jpg" class="card-img-top" alt="Professeur 3">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 3</h5>
+              <p class="card-text">Matière : Anglais</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details3" aria-expanded="false" aria-controls="details3">Détails</button>
+              <div class="collapse" id="details3">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 4 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo4.jpg" class="card-img-top" alt="Professeur 4">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 4</h5>
+              <p class="card-text">Matière : Anglais</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details4" aria-expanded="false" aria-controls="details4">Détails</button>
+              <div class="collapse" id="details4">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour l'Économie -->
+<div class="card">
+  <div class="card-header" id="headingEconomie">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseEconomie" aria-expanded="true" aria-controls="collapseEconomie">
+        <span><i class="fas fa-chart-line"></i> Économie</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseEconomie" class="collapse   " aria-labelledby="headingEconomie" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="path/to/photo1_economie.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : Économie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsEconomie1" aria-expanded="false" aria-controls="detailsEconomie1">Détails</button>
+              <div class="collapse" id="detailsEconomie1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="path/to/photo2_economie.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : Économie</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsEconomie2" aria-expanded="false" aria-controls="detailsEconomie2">Détails</button>
+              <div class="collapse" id="detailsEconomie2">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour l'Allemand -->
+<div class="card">
+  <div class="card-header" id="headingAllemagne">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseAllemagne" aria-expanded="true" aria-controls="collapseAllemagne">
+        <span><i class="fas fa-language"></i> Allemand</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseAllemagne" class="collapse   " aria-labelledby="headingAllemagne" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : Allemand</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details1" aria-expanded="false" aria-controls="details1">Détails</button>
+              <div class="collapse" id="details1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : Allemand</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#details2" aria-expanded="false" aria-controls="details2">Détails</button>
+              <div class="collapse" id="details2">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour l'Espagnol -->
+<div class="card">
+  <div class="card-header" id="headingSpanish">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseSpanish" aria-expanded="true" aria-controls="collapseSpanish">
+        <span><i class="fas fa-language"></i> Espagnol</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseSpanish" class="collapse   " aria-labelledby="headingSpanish" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : Espagnol</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsSpanish1" aria-expanded="false" aria-controls="detailsSpanish1">Détails</button>
+              <div class="collapse" id="detailsSpanish1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : Espagnol</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsSpanish2" aria-expanded="false" aria-controls="detailsSpanish2">Détails</button>
+              <div class="collapse" id="detailsSpanish2">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour les Religions -->
+<div class="card">
+  <div class="card-header" id="headingReligion">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseReligion" aria-expanded="true" aria-controls="collapseReligion">
+        <span><i class="fas fa-church"></i> Religion</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseReligion" class="collapse   " aria-labelledby="headingReligion" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 de Religion -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1 Religion">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : Religion</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsReligion1" aria-expanded="false" aria-controls="detailsReligion1">Détails</button>
+              <div class="collapse" id="detailsReligion1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Section pour l'EPS -->
+<div class="card">
+  <div class="card-header" id="headingEPS">
+    <h5 class="mb-0">
+      <button class="btn btn-link d-flex justify-content-between w-100" data-toggle="collapse" data-target="#collapseEPS" aria-expanded="true" aria-controls="collapseEPS">
+        <span><i class="fas fa-running"></i> EPS</span>
+        <i class="fas fa-chevron-down"></i> <!-- Icône de flèche pour montrer ou cacher -->
+      </button>
+    </h5>
+  </div>
+
+  <div id="collapseEPS" class="collapse " aria-labelledby="headingEPS" data-parent="#accordion">
+    <div class="card-body">
+      <div class="row">
+        <!-- Professeur 1 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo1.jpg" class="card-img-top" alt="Professeur 1">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 1</h5>
+              <p class="card-text">Matière : EPS</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsEPS1" aria-expanded="false" aria-controls="detailsEPS1">Détails</button>
+              <div class="collapse" id="detailsEPS1">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 2 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo2.jpg" class="card-img-top" alt="Professeur 2">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 2</h5>
+              <p class="card-text">Matière : EPS</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsEPS2" aria-expanded="false" aria-controls="detailsEPS2">Détails</button>
+              <div class="collapse" id="detailsEPS2">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professeur 3 -->
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="path/to/photo3.jpg" class="card-img-top" alt="Professeur 3">
+            <div class="card-body">
+              <h5 class="card-title">Professeur 3</h5>
+              <p class="card-text">Matière : EPS</p>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#detailsEPS3" aria-expanded="false" aria-controls="detailsEPS3">Détails</button>
+              <div class="collapse" id="detailsEPS3">
+                <div class="card card-body">
+                  <p>Classes : ?</p>
+                  <p>Heures de cours : ?</p>
+                  <p>Diplôme : ?</p>
+                  <p>Âge : ?</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div> <!-- Fin de l'accordéon -->
+
+  </div> <!-- Container -->
+
+<!-- footer.html -->
+<!-- ======= Footer ======= -->
+<footer class="footer-mf">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="copyright-box">
+          <p class="copyright">&copy; Copyright <strong>Collège Catholique St Michel de D-Z</strong>. Tout droits réservés.</p>
+          <div class="credits">
+            Designed by <a href="">Eliakim Clauvis ADANGNITODE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+  <!-- JS Files -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script>
+  // Lorsque la page est défilée
+  window.onscroll = function() {stickyHeader()};
+
+  var header = document.getElementById("header"); // Récupère l'élément du header
+  var sticky = header.offsetTop; // Position initiale du header
+
+  function stickyHeader() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky"); // Ajoute la classe sticky quand on défile
+    } else {
+      header.classList.remove("sticky"); // Retire la classe sticky quand on revient en haut
+    }
+  }
+</script>
+<script>
+  // Initialiser Typed.js
+  var options = {
+    strings: ["Excelsior", "semper", "Excelsior"], // Texte à taper
+    typeSpeed: 100, // Vitesse de la frappe (en millisecondes)
+    backSpeed: 50, // Vitesse de retour (en millisecondes)
+    backDelay: 1000, // Délai avant de recommencer à effacer le texte
+    loop: true, // Répéter le processus
+  };
+  var typed = new Typed(".typed", options);
+</script>
+
+
+</body>
+
+</html>
